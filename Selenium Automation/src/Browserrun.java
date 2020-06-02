@@ -8,7 +8,7 @@ public class Browserrun {
 	public static void main(String[] args) {
 		 System.setProperty("webdriver.chrome.driver",
 		 "C:\\Users\\shree\\Documents\\chromedriver.exe");
-		WebDriver br = new ChromeDriver();
+		WebDriver br = new ChromeDriver(); ///ssdasd
 		// Browser commands
 		br.get("http://apps.qaplanet.in/hrm/login.php");
 		String pt = br.getTitle();
