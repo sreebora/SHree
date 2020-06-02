@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20443" started-at="2020-05-18T20:47:18 CDT" finished-at="2020-05-18T20:47:38 CDT">
+    <groups>
+      <group name="Login">
+        <method signature="Prac4.f()[pri:1, instance:workingwithtestng.Prac4@887af79]" name="f" class="workingwithtestng.Prac4"/>
+        <method signature="Prac4.f()[pri:1, instance:workingwithtestng.Prac4@7494e528]" name="f" class="workingwithtestng.Prac4"/>
+      </group> <!-- Login -->
+    </groups>
+    <test name="Default test" duration-ms="10309" started-at="2020-05-18T20:47:18 CDT" finished-at="2020-05-18T20:47:28 CDT">
+      <class name="workingwithtestng.Prac4">
+        <test-method status="PASS" signature="buildcaseexecution(java.lang.String)[pri:0, instance:workingwithtestng.Prac4@887af79]" name="buildcaseexecution" is-config="true" duration-ms="6016" started-at="2020-05-18T20:47:18 CDT" finished-at="2020-05-18T20:47:24 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buildcaseexecution -->
+        <test-method status="PASS" signature="f()[pri:1, instance:workingwithtestng.Prac4@887af79]" name="f" duration-ms="3267" started-at="2020-05-18T20:47:24 CDT" finished-at="2020-05-18T20:47:27 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterexecution()[pri:0, instance:workingwithtestng.Prac4@887af79]" name="afterexecution" is-config="true" duration-ms="997" started-at="2020-05-18T20:47:27 CDT" finished-at="2020-05-18T20:47:28 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterexecution -->
+      </class> <!-- workingwithtestng.Prac4 -->
+    </test> <!-- Default test -->
+    <test name="raag1" duration-ms="10115" started-at="2020-05-18T20:47:28 CDT" finished-at="2020-05-18T20:47:38 CDT">
+      <class name="workingwithtestng.Prac4">
+        <test-method status="PASS" signature="buildcaseexecution(java.lang.String)[pri:0, instance:workingwithtestng.Prac4@7494e528]" name="buildcaseexecution" is-config="true" duration-ms="6938" started-at="2020-05-18T20:47:28 CDT" finished-at="2020-05-18T20:47:35 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buildcaseexecution -->
+        <test-method status="PASS" signature="f()[pri:1, instance:workingwithtestng.Prac4@7494e528]" name="f" duration-ms="3116" started-at="2020-05-18T20:47:35 CDT" finished-at="2020-05-18T20:47:38 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterexecution()[pri:0, instance:workingwithtestng.Prac4@7494e528]" name="afterexecution" is-config="true" duration-ms="59" started-at="2020-05-18T20:47:38 CDT" finished-at="2020-05-18T20:47:38 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterexecution -->
+      </class> <!-- workingwithtestng.Prac4 -->
+    </test> <!-- raag1 -->
+  </suite> <!-- Default suite -->
+</testng-results>
